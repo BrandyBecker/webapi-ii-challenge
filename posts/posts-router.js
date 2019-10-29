@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const db = require('../data/db.js');
-//----------------------------------------------------------------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------------------------------------------
 //GET: /api/db/
 //- `find()`: calling find returns a promise that resolves to an array of all the `db` contained in the database.
 /* When the client makes a `GET` request to `/api/db`:
